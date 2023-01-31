@@ -1,0 +1,30 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-weatherappbackend-dev-150128-authRole",
+      "UnauthRoleArn": "arn:aws:iam::584389515751:role/amplify-weatherappbackend-dev-150128-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::584389515751:role/amplify-weatherappbackend-dev-150128-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-weatherappbackend-dev-150128-deployment",
+      "UnauthRoleName": "amplify-weatherappbackend-dev-150128-unauthRole",
+      "StackName": "amplify-weatherappbackend-dev-150128",
+      "StackId": "arn:aws:cloudformation:us-east-1:584389515751:stack/amplify-weatherappbackend-dev-150128/6f618e10-a1aa-11ed-af94-0ec240785f9f",
+      "AmplifyAppId": "dfj72qbaz4jua",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-weatherappbackend-dev-150128-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "function": {
+        "firstLambda": {
+          "deploymentBucketName": "amplify-weatherappbackend-dev-150128-deployment",
+          "s3Key": "amplify-builds/firstLambda-644e5649794c7a574444-build.zip"
+        }
+      },
+      "auth": {
+        "weatherappbackend": {}
+      },
+      "api": {
+        "firstcloudbackend": {}
+      }
+    }
+  }
+}

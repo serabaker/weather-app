@@ -3,9 +3,11 @@ const app = express();
 const axios = require("axios");
 const bodyParser = require("body-parser");
 const PORT = 3001;
+const cors = require("cors");
 
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(cors);
 
 app.get("/api/:version", function (req, res) {
   res.send(req.params.version);
