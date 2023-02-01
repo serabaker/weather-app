@@ -1,14 +1,12 @@
 {
   "version": 1,
   "paths": {
-    "/app": {
-      "name": "/app",
+    "/": {
+      "name": "/",
       "lambdaFunction": "firstLambda",
       "permissions": {
         "setting": "private",
-        "auth": [
-          "read"
-        ]
+        "auth": ["read"]
       }
     }
   }
